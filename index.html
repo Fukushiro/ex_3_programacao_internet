@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- bootstrap -->
@@ -36,20 +35,21 @@
     <!-- Acoes -->
     <div class="acoes_div">
       <div class="acoes_div_centralizada">
-          <div style="display: flex;flex-direction: column;">
-              <input type="text" name="titulo" id="titulo_id" placeholder="titulo">
-              <input type="text" name="url" id="url_id" placeholder="url">
-              <input type="text" name="urlDeImagem" id="urlDeImagem_id" placeholder="url da imagem">
+          <div class="acao_div_centralizada_form">
+              <input type="text" name="titulo" id="titulo_id" placeholder="titulo" class="acao_div_centralizada_form_input" style="margin-top: 5px;">
+              <input type="text" name="url" id="url_id" placeholder="url" class="acao_div_centralizada_form_input">
+              <input type="text" name="urlDeImagem" id="urlDeImagem_id" placeholder="url da imagem" class="acao_div_centralizada_form_input">
               <select
               name="categorias"
               id="categorias_cadastro_id"
+              class="acao_div_centralizada_form_input"
               
-            >
+              >
              
-            </select>
-              <button onclick="cadastrar()">Cadastrar</button>
+              </select>
+              <button onclick="cadastrar()" class="acao_div_centralizada_form_input">Cadastrar</button>
           </div>
-        <div>
+        <div class="acoes_div_centralizada_select_div">
           <select
             name="categorias"
             id="categorias_id"

@@ -28,7 +28,7 @@ paleta{
 
 let categorias = [
   { id: 0, nome: 'comida' },
-  { id: 1, nome: 'esporte' },
+  { id: 1, nome: 'jogos' },
 ];
 
 let conteudo = [
@@ -50,10 +50,42 @@ let conteudo = [
   },
   {
     id: 2,
-    titulo: 'Macarrao',
-    url: 'https://receitas.globo.com/macarrao-simples-4dfa24dbd7001a3f8d0021ce.ghtml',
+    titulo: 'Fortnite',
+    url: 'https://www.epicgames.com/fortnite/pt-BR/home',
     urlDeImagem:
-      'https://s2.glbimg.com/6af6YVkADRZAC9sLVFOM6mH8Jt4=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/O/8/qNYHfAQhK8YIjBGViedA/pasta-1463930-1920.jpg',
+      'https://s2.glbimg.com/d7ULQRQm3_jIU9PVDme21GSkt1c=/0x0:1280x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/N/A/rIazBsQmidq9gyS60DaQ/temporada-8-fortnite.jpg',
+    categoria: 1,
+  },
+  {
+    id: 3,
+    titulo: 'Overwatch',
+    url: 'https://playoverwatch.com/pt-br/',
+    urlDeImagem:
+      'https://s2.glbimg.com/8xRSTf0bYUxpol5NO41wp499QoQ=/0x0:1047x540/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/T/R/5IGsdGSmSHjrohA9CzHQ/overwatch-2.jpg',
+    categoria: 1,
+  },
+  {
+    id: 4,
+    titulo: 'Just Dance 2021',
+    url: 'https://www.ubisoft.com/pt-br/game/just-dance/2021',
+    urlDeImagem:
+      'https://image.api.playstation.com/vulcan/img/rnd/202011/1220/39pCDkkcgUBKSSQJILIIUPav.jpg',
+    categoria: 1,
+  },
+  {
+    id: 5,
+    titulo: 'Assassins Creed Origins',
+    url: 'https://www.ubisoft.com/pt-br/game/assassins-creed/origins',
+    urlDeImagem:
+      'https://tecnoblog.net/wp-content/uploads/2021/03/assassins-creed-origins-700x394.jpg',
+    categoria: 1,
+  },
+  {
+    id: 6,
+    titulo: 'Tom Clancy s Ghost Recon Wildlands',
+    url: 'https://www.ubisoft.com/pt-br/game/ghost-recon/breakpoint/wildlands',
+    urlDeImagem:
+      'https://tecnoblog.net/meiobit/wp-content/uploads/2017/03/20170317wildlands-2.jpg',
     categoria: 1,
   },
 ];
