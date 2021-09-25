@@ -29,9 +29,13 @@ paleta{
 let categorias = [
   { id: 0, nome: 'comida' },
   { id: 1, nome: 'jogos' },
+  { id: 2, nome: 'noticias' },
+  { id: 3, nome: 'Sites divertidos' },
+  { id: 4, nome: 'Esporte' },
 ];
 
 let conteudo = [
+  // comida
   {
     id: 0,
     titulo: 'Pao de queijo',
@@ -48,6 +52,7 @@ let conteudo = [
       'https://s2.glbimg.com/6af6YVkADRZAC9sLVFOM6mH8Jt4=/0x0:1920x1280/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/O/8/qNYHfAQhK8YIjBGViedA/pasta-1463930-1920.jpg',
     categoria: 0,
   },
+  // jogos
   {
     id: 2,
     titulo: 'Fortnite',
@@ -87,6 +92,139 @@ let conteudo = [
     urlDeImagem:
       'https://tecnoblog.net/meiobit/wp-content/uploads/2017/03/20170317wildlands-2.jpg',
     categoria: 1,
+  },
+  // Noticias
+  {
+    id: 7,
+    titulo: 'Globo',
+    url: 'https://www.globo.com/',
+    urlDeImagem:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Globo.com_logo_%28stacked%29.svg/1200px-Globo.com_logo_%28stacked%29.svg.png',
+    categoria: 2,
+  },
+  {
+    id: 8,
+    titulo: 'Folha de São Paulo',
+    url: 'https://www.folha.uol.com.br/',
+    urlDeImagem:
+      'https://apesp.org.br/wp-content/uploads/2019/08/folha_160819.png',
+    categoria: 2,
+  },
+
+  {
+    id: 9,
+    titulo: 'Estadão',
+    url: 'https://www.estadao.com.br/',
+    urlDeImagem:
+      'https://img.estadao.com.br/resources/jpg/3/4/1598984352643.jpg',
+    categoria: 2,
+  },
+
+  {
+    id: 10,
+    titulo: 'CNN Brasil',
+    url: 'https://www.cnnbrasil.com.br/',
+    urlDeImagem:
+      'https://upload.wikimedia.org/wikipedia/commons/f/fb/Cnn_logo_red_background.png',
+    categoria: 2,
+  },
+
+  {
+    id: 11,
+    titulo: 'BBC News',
+    url: 'https://www.bbc.com/portuguese',
+    urlDeImagem:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/1024px-BBC_News_2019.svg.png',
+    categoria: 2,
+  },
+  // Sites divertidos categoria 4
+
+  {
+    id: 12,
+    titulo: 'Haximionic',
+    url: 'http://haxiomic.github.io/GPU-Fluid-Experiments/html5/?q=Medium',
+    urlDeImagem:
+      'https://external-preview.redd.it/luasbAZzI8wt-E9368ZQYaBkRtX9Wu_YFMDywjXuJc4.jpg?auto=webp&s=fb82eff708c671f9dc4cdbdda28bdb15de308b42',
+    categoria: 3,
+  },
+
+  {
+    id: 13,
+    titulo: 'Neogeocity',
+    url: 'http://www.neogeocity.com/',
+    urlDeImagem: 'https://www.newrafael.com/img/sitethumbs/neogeocity-700.png',
+    categoria: 3,
+  },
+
+  {
+    id: 14,
+    titulo: 'Super-Looper',
+    url: 'http://superlooper.universlabs.co.uk/',
+    urlDeImagem: 'https://superlooper.universlabs.co.uk/images/opengraph.png',
+    categoria: 3,
+  },
+
+  {
+    id: 15,
+    titulo: 'Koalas to The Max',
+    url: 'https://www.koalastothemax.com/',
+    urlDeImagem:
+      'https://i.pinimg.com/originals/3d/d3/2f/3dd32f80fd3cad17ba427c03a27546b7.png',
+    categoria: 3,
+  },
+
+  {
+    id: 16,
+    titulo: 'Ducks Are The Best',
+    url: 'http://ww16.ducksarethebest.com/?sub1=20210923-0855-51fe-af2d-987c33bd33c9',
+    urlDeImagem:
+      'https://arewefullyet.com/images/2013/04/ducks-are-the-best.jpg',
+    categoria: 3,
+  },
+  // Esporte
+  {
+    id: 17,
+    titulo: 'GE Globo',
+    url: 'https://ge.globo.com/',
+    urlDeImagem:
+      'https://s3.glbimg.com/v1/AUTH_378ee63fe83141e69caddd838034e850/static/preview-share-min.png',
+    categoria: 4,
+  },
+
+  {
+    id: 18,
+    titulo: 'Lance',
+    url: 'https://www.lance.com.br/',
+    urlDeImagem:
+      'https://seeklogo.com/images/D/Di__rio_Esportivo_LANCE_-logo-71CA7640FE-seeklogo.com.png',
+    categoria: 4,
+  },
+
+  {
+    id: 19,
+    titulo: 'Gazeta Esportiva',
+    url: 'https://www.gazetaesportiva.com/',
+    urlDeImagem:
+      'https://earparade.com.br/wp-content/uploads/2019/07/gazeta.jpg',
+    categoria: 4,
+  },
+
+  {
+    id: 20,
+    titulo: 'ESPN',
+    url: 'https://www.espn.com.br/',
+    urlDeImagem:
+      'https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2020/01/espn-logo_divulgacao.png',
+    categoria: 4,
+  },
+
+  {
+    id: 21,
+    titulo: 'R7 esportes',
+    url: 'https://esportes.r7.com/',
+    urlDeImagem:
+      'http://anuncie.r7.com/files/2015/01/Home-Esportes-2-301x169.png',
+    categoria: 4,
   },
 ];
 
@@ -172,8 +310,6 @@ window.onload = () => {
     const val = document.getElementById('categorias_id').value;
     mostrarCaixas(val);
   };
-  //   conteudo.forEach((element) => {
-  //     adicionarCaixa(element);
-  //   });
+
   mostrarCaixas(null);
 };

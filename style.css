@@ -13,19 +13,24 @@ body {
 /* Header */
 .header {
   background-color: #21295c;
-  height: 100px;
+  height: 338px;
   justify-content: center;
   /* width: 100%; */
 }
 
 .header_div_centralizada {
   /* background-color: blue; */
-  height: 100px;
+  height: 338px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header_div_logo {
+  background-color: red;
   /* background-color: green; */
-  height: 100px;
+  height: 338px;
   display: flex;
   /* flex-direction: row; */
   justify-content: flex-end;
@@ -33,6 +38,9 @@ body {
 }
 
 .logo_imagem {
+  width: 338px;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* acoes */
